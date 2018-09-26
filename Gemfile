@@ -29,6 +29,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Authentication with email & password
 gem 'clearance'
+# Easy file attachment management for ActiveRecord
+gem 'paperclip'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
