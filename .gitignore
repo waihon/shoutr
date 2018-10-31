@@ -21,3 +21,9 @@
 
 # Ignore uploaded image files
 public/system
+
+# Ignore Solr files
+solr/
+
+# macOS
+.DS_Store

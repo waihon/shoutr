@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'clearance'
 # Easy file attachment management for ActiveRecord
 gem 'paperclip'
+# Drop-in integration of the Sunspot Solr search library with Rails.
+gem 'sunspot_rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -42,6 +44,8 @@ gem 'paperclip'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # A packaged distribution of Solr for use with sunspot_rails gem.
+  gem 'sunspot_solr'
 end
 
 group :development do
